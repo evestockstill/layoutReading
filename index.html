@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>layout</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Fill in the blanks</h1>
+        <section id="textInput">
+            <label>The
+                <input type="text" id="text1" class="box">
+                refers to the placement of text, images, and other objects on a page.</label>
+            <label>When a element has not been position in anyway it has
+                <input type="text" id="text1" class="box">.</label>
+            <label>Position
+                <input type="text" id="text1" class="box">moves an element relative to where it would have otherwise
+                been, it does not affect elements that surround it, and an empty space is left where it was.</label>
+            <label>When the position of an element is relative to its nearest positioned ancestor(first parent) and does
+                not leave an empty space it is position:
+                <input type="text" id="text1" class="box">.</label>
+            <label>Position:
+                <input type="text" id="text1" class="box">positions an element relative to the browser window and
+                scrolls with the page.</label>
+            <label>A layout that changes to accommodate for screen size is
+                <input type="text" id="text1" class="box">layout.</label>
+        </section>
+
+        <button onclick="answers()" id="btn">Read Answers</button>
+        <p id="answers" class="hidden">
+            The LAYOUT refers to the placement of text, images, and other objects on a page. When a element has not been
+            position in anyway it has NORMAL FLOW. Position RELATIVE
+            moves an element relative to where it would have otherwise been, it does not affect elements that surround
+            it, and an empty space is left where it was. When the position of an element is relative to its nearest
+            positioned ancestor(first parent) and does not leave an empty space it is position: ABSOLUTE . Position:
+            FIXED positions an element relative to the browser window and scrolls with the page. A layout that changes
+            to accommodate for screen size is LIQUID
+            layout.
+        </p>
+
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
